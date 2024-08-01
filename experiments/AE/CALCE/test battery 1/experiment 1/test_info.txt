@@ -1,0 +1,37 @@
+Error !
+Error !
+Error !
+Error !
+ 
+input_channel:3
+method_type:AE
+source_dir:data/CALCE_Anysis/AE_input/CS2
+test_id:1
+normalize_type:minmax
+batch_size:32
+seed:2022
+num_samples:10
+lr:0.001
+momentum:0.9
+weight_decay:0.0005
+lr_step:[1000, 2000]
+lr_gamma:0.5
+lr_scheduler:True
+device:cuda
+n_epoch:20000
+early_stop:500
+alpha:1
+beta:0.9
+is_plot_test_results:False
+is_save_logging:True
+is_save_best_model:True
+is_save_to_txt:True
+is_save_test_results:True
+experiment_time:1
+isTest:False
+save_root:experiments/AE/CALCE/test battery 1/experiment 1
+2024-03-24 epoch = 1, test_loss(100x):2.385772£¬ matrix:: MAE=0.124473,MAPE=0.032522,MSE=0.023858,RMSE=0.154459.
+2024-03-24 epoch = 2, test_loss(100x):2.869310£¬ matrix:: MAE=0.127980,MAPE=0.033004,MSE=0.028693,RMSE=0.169390.
+2024-03-24 epoch = 3, test_loss(100x):2.667804£¬ matrix:: MAE=0.123081,MAPE=0.031726,MSE=0.026678,RMSE=0.163334.
+2024-03-24 epoch = 4, test_loss(100x):2.340795£¬ matrix:: MAE=0.115621,MAPE=0.029819,MSE=0.023408,RMSE=0.152997.
+2024-03-24 epoch = 5, test_loss(100x):2.375453£¬ matrix:: MAE=0.115151,MAPE=0.029618,MSE=0.023755,RMSE=0.154125.
